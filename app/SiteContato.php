@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
+
+//Site_Contato
+//site_contato
+//site_contatos
 
 class SiteContato extends Model
 {
-    //
+    protected $fillable = ['nome', 'telefone', 'email', 'motivo_contatos_id', 'mensagem'];
 }
